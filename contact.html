@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="l-header" id="header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <img src="image/grid-alt-solid-24.png" alt="">
+            </div>
+            <a href="#" class="nav__logo">RDbooks</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link ">Home</a></li>
+                    <li class="nav__item"><a href="index.html#featured" class="nav__link">Featured</a></li>
+                    <li class="nav__item"><a href="index.html#us" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link active">Contact</a></li>
+                    <li class="nav__item"><a href="book.html" class="nav__link">Books</a></li>
+                    <li class="nav__item"><a href="Signup.html" class="nav__link ">Sign Up</a></li>
+                    <li class="nav__item">
+                        <div class="search-container">
+                            <input type="text" placeholder="Search..." class="search-input">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__shop">
+                <img src="image/cart-solid-24.png" alt="">
+            </div>
+        </nav>
+    </header>
+    <div class="contact-form">
+        <h1 class="section-title">Contact Us</h1>
+        <div class="container">
+            <div class="main">
+                <div class="content">
+                    <h2>Contact Us</h2>
+                    <form action="" onsubmit="return validateContactForm()">
+                        <input type="text" name="name" placeholder="Enter Your Name" required>
+                        <input type="email" name="email" placeholder="Enter Your Email" required>
+                        <textarea name="message" placeholder="Your Message"></textarea>
+                        <button class="btn">Send</button>
+                    </form>
+                </div>
+                <div class="form-img">
+                    <img src="image/stack-of-books-vector-1027951-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__box">
+                <h3 class="footer__title">RDbooks</h3>
+                <p class="footer__description">Books You can Read you can never get bored of</p>
+            </div>
+            <div class="footer__box">
+                <h3 class="footer__title">EXPLORE</h3>
+                <ul>
+                    <li><a href="index.html" class="footer__link">Home</a></li>
+                    <li><a href="index.html#featured" class="footer__link">Featured</a></li>
+                    <li><a href="index.html#us" class="footer__link">About</a></li>
+                    <li><a href="book.html" class="footer__link">Books</a></li>
+                </ul>
+            </div>
+            <div class="footer__box">
+                <h3 class="footer__title">Date Made</h3>
+                <p class="footer__description">
+                    Created on: <span class="footet__link">December 10, 2023</span><br>
+                    Last Updated on: <span class="footet__link">December 21, 2023</span><br>
+                    Data Collection Date: <span class="footet__link">December 15, 2023</span>
+
+                </p>
+            </div>
+            <div class="footer__box1">
+                <a href="#" class="footer__social"><img src="image/bxl-facebook.svg" alt=""></a>
+                <a href="#" class="footer__social"><img src="image/instagram-logo-24.png" alt=""></a>
+                <a href="#" class="footer__social"><img src="image/twitter-logo-24.png" alt=""></a>
+                <a href="#" class="footer__social"><img src="image/google-logo-24.png" alt=""></a>
+            </div>
+        </div>
+        <p class="footer__copy">@ 2023 Copyright RDbooks.com</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
